@@ -6,7 +6,7 @@
     "terrainsCanBeFoundOn": ["Forest"],
     "production": 1,
     "improvement": "Gathering area",
-    "uniques": ["Generated on every [3] tiles <in [Forest] tiles>"],
+    "uniques": ["Generated on every [5] tiles <in [Forest] tiles>"],
  },
  // Improvement and Building Resources
  {
