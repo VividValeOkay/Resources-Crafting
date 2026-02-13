@@ -5,6 +5,6 @@
     "terrainsCanBeFoundOn": ["Forest"],
     "production": 1,
     "improvement": "Lumber mill",
-    "uniques": ["Generated on every [2] tiles <in [Forest] tiles>"],
+    "uniques": ["Generated on every [1] tiles <in [Forest] tiles>"],
   },
 ]
