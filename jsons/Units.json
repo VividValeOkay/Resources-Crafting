@@ -8,7 +8,7 @@
 		"requiredTech": "Agriculture",
 		"obsoleteTech": "Scientific Theory",
 		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
-		"promotions": ["Consumes [1] [Stcks]","Ignore terrain cost"],
+		"promotions": ["Consumes [1] [Sticks]","Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -20,7 +20,7 @@
 		"requiredTech": "Agriculture",
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
-		"uniques": ["Consumes [1] [Stcks]","Consumes [1] [Stone]","May upgrade to [Spearman] through ruins-like effects"],
+		"uniques": ["Consumes [1] [Sticks]","Consumes [1] [Stone]","May upgrade to [Spearman] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
 			{"text": "This is your basic, club-swinging fighter."}
