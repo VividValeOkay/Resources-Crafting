@@ -1,10 +1,17 @@
 [
- {
-    "name": "Wood",
+ // World Resources
+{
+    "name": "Sticks",
     "resourceType": "Strategic",
     "terrainsCanBeFoundOn": ["Forest"],
     "production": 1,
     "improvement": "Lumber mill",
     "uniques": ["Generated on every [2] tiles <in [Forest] tiles>"],
-  },
+ },
+ // Improvement and Building Resources
+ {
+    "name": "Wood",
+    "resourceType": "Strategic",
+    "production": 1,
+ },
 ]
