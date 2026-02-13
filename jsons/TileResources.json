@@ -5,7 +5,7 @@
     "resourceType": "Strategic",
     "terrainsCanBeFoundOn": ["Forest"],
     "production": 1,
-    "improvement": "Lumber mill",
+    "improvement": "Gathering area",
     "uniques": ["Generated on every [2] tiles <in [Forest] tiles>"],
  },
  // Improvement and Building Resources
