@@ -2,7 +2,7 @@
  {
     "name": "Wood",
     "resourceType": "Strategic",
-    "terrainsCanBeFoundOn": ["Grassland","Hill","Plains"],
+    "terrainsCanBeFoundOn": ["Grassland","Hill","Plains","Forest"],
     "production": 1,
     "improvement": "Lumber mill",
     "uniques": ["Generated on every [2] tiles <in [Forest] tiles>"],
