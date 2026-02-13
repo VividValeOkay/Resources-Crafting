@@ -1,6 +1,6 @@
 [
  // World Resources
-{
+ {
     "name": "Sticks",
     "resourceType": "Strategic",
     "terrainsCanBeFoundOn": ["Forest"],
