@@ -8,4 +8,11 @@
 		"uniques": ["Provides [2] [Wood]","[+1 Production] <after discovering [Scientific Theory]>", "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "L"
 	},
+	{
+		"name": "Gathering area",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Forest"],
+		"food": 1,
+		"turnsToBuild": 4,
+		"uniques": ["Pillaging this improvement yields approximately [+2 Gold]"],
+	},
 ]
