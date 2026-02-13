@@ -1,1 +1,10 @@
-
+[
+ {
+    "name": "Wood",
+    "resourceType": "Strategic",
+    "terrainsCanBeFoundOn": ["Forest"],
+    "food": 1,
+    "improvement": "Lumber mill",
+    "uniques": ["Generated with weight [1] <in [Grassland] tiles>"],
+  },
+]
