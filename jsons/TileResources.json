@@ -10,7 +10,7 @@
  },
 	{
 		"name": "Stone",
-		"resourceType": "Bonus",
+		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Hill"],
 		"production": 1,
 		"improvement": "Quarry",
@@ -25,6 +25,24 @@
     "improvement": "Gathering area",
     "uniques": ["Generated on every [18] tiles <in [Grassland] tiles>","Generated on every [18] tiles <in [Plains] tiles>"],
  },
+	{
+		"name": "Copper",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Grassland","Tundra"],
+		"gold": 2,
+		"improvement": "Mine",
+		"uniques": ["Generated with weight [15] <in [Tundra] Regions>",
+					"Generated with weight [5] <in [Jungle] Regions>",
+					"Generated with weight [5] <in [Forest] Regions>",
+					"Generated with weight [10] <in [Desert] Regions>",
+					"Generated with weight [30] <in [Hill] Regions>",
+					"Generated with weight [20] <in [Grassland] Regions>",
+					"Generated with weight [20] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]",
+					"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>",
+					"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>",
+					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]> <in tiles without [Tundra]>"]
+	},
  // Improvement and Building Resources
  {
     "name": "Wood",
