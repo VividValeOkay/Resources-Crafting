@@ -39,4 +39,81 @@
 		"uniques": ["Consumes [1] [Sticks]","Consumes [1] [Flint]"],
 		"attackSound": "arrow"
 	},
+// Unique Units
+	{
+		"name": "Maori Warrior",
+		"unitType": "Sword",
+		"uniqueTo": "Polynesia",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"requiredTech": "Agriculture",
+		"obsoleteTech": "Metal Casting",
+		"promotions": ["Haka War Dance"],
+		"upgradesTo": "Swordsman",
+		"uniques": ["Consumes [1] [Sticks]","Consumes [1] [Stone]"]
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Jaguar",
+		"unitType": "Sword",
+		"uniqueTo": "Aztecs",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"requiredTech": "Agriculture",
+		"obsoleteTech": "Metal Casting",
+		"promotions": ["[Jaguar] ability","Woodsman"],
+		"upgradesTo": "Swordsman",
+		"uniques": ["Consumes [1] [Sticks]","Consumes [1] [Stone]"]
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Bowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 9,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Construction",
+		"replaces": "Archer",
+		"uniqueTo": "Babylon",
+		"upgradesTo": "Composite Bowman",
+		"uniques": ["Consumes [1] [Sticks]","Consumes [1] [Flint]"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Slinger",
+		"unitType": "Archery",
+		"uniqueTo": "Inca",
+		"replaces": "Archer",
+		"movement": 2,
+		"strength": 4,
+		"rangedStrength": 7,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Construction",
+		"upgradesTo": "Composite Bowman",
+		"uniques": ["Consumes [1] [Stone]"],
+		"promotions": ["Slinger Withdraw"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Atlatlist",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 7,
+		"cost": 36,
+		"requiredTech": "Agriculture",
+		"obsoleteTech": "Construction",
+		"replaces": "Archer",
+		"uniqueTo": "The Maya",
+		"upgradesTo": "Composite Bowman",
+		"uniques": ["Consumes [1] [Sticks]","Consumes [1] [Flint]"],
+		"attackSound": "arrow"
+	},
 ]
