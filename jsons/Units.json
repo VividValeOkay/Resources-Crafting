@@ -27,31 +27,16 @@
 		]
 	},
 	{
-		"name": "Maori Warrior",
-		"unitType": "Sword",
-		"uniqueTo": "Polynesia",
-		"replaces": "Warrior",
+		"name": "Archer",
+		"unitType": "Archery",
 		"movement": 2,
-		"strength": 8,
+		"strength": 5,
+		"rangedStrength": 7,
 		"cost": 40,
-		"requiredTech": "Agriculture",
-		"obsoleteTech": "Metal Casting",
-		"promotions": ["Haka War Dance"],
-		"upgradesTo": "Swordsman",
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Jaguar",
-		"unitType": "Sword",
-		"uniqueTo": "Aztecs",
-		"replaces": "Warrior",
-		"movement": 2,
-		"strength": 8,
-		"cost": 40,
-		"requiredTech": "Agriculture",
-		"obsoleteTech": "Metal Casting",
-		"promotions": ["[Jaguar] ability","Woodsman"],
-		"upgradesTo": "Swordsman",
-		"attackSound": "nonmetalhit"
+		"requiredTech": "Archery",
+		"obsoleteTech": "Construction",
+		"upgradesTo": "Composite Bowman",
+		"uniques": ["Consumes [1] [Sticks]","Consumes [1] [Flint]"],
+		"attackSound": "arrow"
 	},
 ]
