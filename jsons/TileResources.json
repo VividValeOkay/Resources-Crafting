@@ -28,6 +28,7 @@
 	{
 		"name": "Copper",
 		"resourceType": "Strategic",
+		"revealedBy": "Bronze Working",
 		"terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Grassland","Tundra"],
 		"gold": 2,
 		"improvement": "Mine",
@@ -47,6 +48,7 @@
  {
     "name": "Wood",
     "resourceType": "Strategic",
+	"revealedBy": "Construction",
     "production": 1,
  },
 ]
