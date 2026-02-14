@@ -11,6 +11,7 @@
 	{
 		"name": "Stone",
 		"resourceType": "Strategic",
+	    "revealedBy": "Mining",
 		"terrainsCanBeFoundOn": ["Hill"],
 		"production": 1,
 		"improvement": "Quarry",
@@ -48,7 +49,7 @@
  {
     "name": "Wood",
     "resourceType": "Strategic",
-	"revealedBy": "Construction",
+	"revealedBy": "Mining",
     "production": 1,
  },
 ]
