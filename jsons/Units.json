@@ -228,4 +228,33 @@
 		"uniques": ["Consumes [1] [Ivory]","Consumes [1] [Sticks]","No defensive terrain bonus"],
 		"attackSound": "elephant"
 	},
+	{
+		"name": "Hoplite",
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"uniqueTo": "Greece",
+		"movement": 2,
+		"strength": 13,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["Consumes [1] [Copper]","Consumes [1] [Sticks]","[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Persian Immortal",
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"uniqueTo": "Persia",
+		"movement": 2,
+		"strength": 12,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["Consumes [1] [Copper]","Consumes [1] [Sticks]","[+50]% Strength <vs [Mounted] units>"],
+		"promotions":["[Persian Immortal] ability"],
+		"attackSound": "metalhit"
+	},
 ]
